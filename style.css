@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+/* reset */
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+img{
+    display: block;
+    width: 100%;
+}
+/* uilities */
+section{
+    padding: 2em;
+}
+.first{
+    background-image: url(./bg.jpg ) ;
+    background-size: cover;
+}
+.first div{
+    font-family: 'Pacifico', cursive;
+    font-size: 2rem;
+    color: #5f3d77;
+}
+nav{
+    display: flex;
+    text-transform: capitalize;
+    align-items: center;
+    padding-bottom: 7em;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color: #bdbbbb;
+    width: 40%;
+    font-size: 1.2rem;
+}
+nav ul li:hover{
+    color: #608395;
+}
+.first main h1{
+    text-transform:capitalize;
+    font-size: 2.5rem;
+    color: #365f7e;
+    padding-bottom: .2em;
+}
+main p{
+    color: #365f7e; 
+    font-size: 1em;
+    padding-bottom: 2em;
+    text-align: left;
+}
+footer ul{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    padding-bottom: 1em;
+    font-size: 1.5rem;
+    color: #8c9da5;
+    align-items: center;
+    white-space: nowrap;
+}
+footer button{
+    background-color: #f98169;
+    padding: .5em 1.2em;
+    color: #fdd4c4;
+    border: none;
+    white-space: nowrap;
+}
+footer button:hover{
+    background-color: #f73b15;
+}
+.material-symbols-outlined{
+     color:#f73b15;
+     font-size: 3rem;
+}
+/* second section */
+.second img{
+    display: inline-block;
+    width: 80%;
+    height:auto;
+    box-shadow: 5px 5px 20px;
+    border-radius: 0 0 30px 0;
+}
+.second{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.second div{
+    display: inline;
+    width: 100%;
+    line-height: 2em;
+    font-size: 1rem;
+}
+.second h3{
+    color: #012a46;
+    font-size: 2rem;
+    text-transform: capitalize;
+    padding-bottom: 1.5em;
+}
+.second button{
+    background-color:#f98169 ;
+    color: #f5f2f2;
+    padding: 1em;
+    border: none;
+    margin-top: .5em;
+}
+.second button:hover{
+    background-color: #f73b15;
+}
+/* third section */
+.third{
+    display: flex;
+    justify-content: space-around;
+    line-height: 2em;
+}
+.third div{
+    width: 100%;
+}
+.third div ul{
+   position: relative;
+   width: 100%;
+
+}
+.third img{
+    border-radius: 1em;
+    width: 50%;
+}
+.third li:nth-child(1){
+    width: 40%;
+    position: absolute;
+    top: 5em;
+}
+.third li:nth-child(2){
+    width: 50%;
+    left: 9em;
+    position: absolute;
+}
+.third li:nth-child(4){
+    width: 50%;
+    position: absolute;
+    top: 11em;
+}
+.third li:nth-child(3){
+    width: 40%;
+    left: 10.5em;
+    top: 9em;
+    position: absolute;
+}
+.third h3{
+    color: #012a46;
+    font-size: 2rem;
+    text-transform: capitalize;
+    padding-bottom: 1.5em;
+}
+.third button{
+    background-color:#f98169 ;
+    color: #f5f2f2;
+    padding: 1em;
+    border: none;
+    margin-top: .5em;
+}
+.third button:hover{
+    background-color: #f73b15;
+}
+/* fourth section */
+.fourth{
+    background-image: url(./bg2.jpg);
+    background-size: cover;
+    opacity: 0.9;
+    line-height: 2em;
+    text-align: center;
+    color: #fdfcfb;
+    border-radius: 1em;
+}
+.fourth h2{
+    font-size: 2rem;
+    text-transform: capitalize;
+    padding-bottom: 1em;
+}
+.fourth .material-symbols-outlined{
+    font-size: 2.5rem;
+    color: #f5f2f2;
+    background-color: transparent;
+}
+/* fifth section */
+.fifth{
+    text-align: center;
+}
+.fifth h2{
+    color: #49687c;
+    text-transform: capitalize;
+    font-size: 2rem;
+}
+.flex5{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.5em;
+    padding-top: 2em;
+    align-items: center;
+}
+.fifth img{
+    border-radius: 1em 1em 0em 0em;
+}
+.one{
+    border: 1px solid transparent;
+    border-radius: 0em 0em 1em 1em ;
+}
+.one ul{
+    display: flex;
+    justify-content: space-around;
+    text-transform: capitalize;
+    font-weight: bolder;
+    color: #51667a;
+    padding-bottom: 1em;
+}
+.fifth li:nth-child(2){
+    color: #fa7057;
+}
+.fifth button{
+    background-color:#f98169 ;
+    color: #f5f2f2;
+    padding: 1em;
+    border: none;
+    margin-top: 2em;
+    text-transform: capitalize;
+}
+.fifth button:hover{
+    background-color: #f73b15;
+}
+/* sixth section */
+.sixth h2{
+    text-align: center;
+    color: #072445;
+    text-transform: capitalize;
+    padding-bottom: 1em;
+}
+.sixth ul{
+    display: flex;
+    justify-content: space-between;
+}
+.sixth img{
+    width: 90%;
+    border-radius: 1em;
+}
+/* seventh */
+.seventh h2{
+    text-transform: capitalize;
+    text-align: center;
+    color: #072445;
+    padding-bottom: 2em;
+}
+#button-addon2{
+    background-color: #f73b15;
+    color: black;
+    border: none;
+    width: 25%;
+}
+.seventh{
+    border: 1px solid transparent;
+    width: 50%;
+    margin: auto;
+}
+
+
+/* mediaquery */
+/* mobile */
+@media (max-width:768px){
+   /* section first */
+    nav{
+       flex-direction: column;
+    }
+    nav ul{
+        flex-direction: column;
+        line-height: 2em;
+    }
+    footer ul{
+        flex-direction: column;
+        margin: auto;
+        line-height: 2em;
+    }
+    /* second section */
+    .second{
+        flex-direction: column;
+    }
+    .second img{
+        display: block;
+        width: 50%;
+        margin: auto;
+    }
+    .second div h3{
+       padding-top: 2em;
+       line-height: 1.5em;
+    }
+    /* third section */
+    .third{
+        flex-direction: column;
+        margin: auto;
+    }
+    .third ul{
+       display: none;
+    }
+    /* fifth section */
+    .flex5{
+        flex-direction: column;
+        margin: auto;
+        display: block;
+        width: 50%;
+    }
+    .flex5 div{
+        margin-bottom: 2em;
+    }
+    /* sixth section */
+    .sixth ul{
+        flex-direction: column;
+        margin: auto;
+    }
+    .sixth img{
+        width: 50%;
+        margin: 1em auto;   
+    }  
+}
+@media (max-width:500px){
+    .second img{
+        display: block;
+        width: 100%;
+    }
+    .fifth ul{
+        white-space: nowrap;
+        padding: 0%;
+    }
+    #button-addon2{
+        width: 40%; 
+        font-size: .7rem; 
+        padding: .5em;
+    }
+    .seventh input{
+        width: 60%;
+    }
+        
+}
